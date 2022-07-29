@@ -6,7 +6,7 @@ This is a Minimal Example Flask App.
 
 ## Authors
 
-- [@Satyam Mishra](https://www.github.com/octokatherine)
+- [@Satyam Mishra](https://www.github.com/bedead)
 
 
 ## 🔗 Links
