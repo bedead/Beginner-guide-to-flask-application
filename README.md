@@ -15,4 +15,4 @@ This is a Minimal Example Flask App.
 
 ## Medium Blog
 
- - [Create your first Flask application]()
+ - [Create your first Flask application](https://medium.com/@Satyam_Mishra/create-your-first-flask-application-48a698b524ca)
