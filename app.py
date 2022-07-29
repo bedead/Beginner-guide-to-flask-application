@@ -9,20 +9,18 @@ app = Flask(name)
 # "/" is root directory
 @app.route("/")
 def home():
-    # you can type complete html inside quotes.
-    return "<h1>This is a Home app.</h1>"
     
     # you can return using this command:
-    # return render_template(html file name)
+    return render_template("home.html")
 
 # same way you can create multiple points
 @app.route("/about")
 def about():
-    return "<h1>This is About Page.</h1>"
+    return render_template("about.html")
 
 @app.route("/contact")
 def contact():
-    return "<h1>This is Contact Page.</h1>"
+    return render_template("contact.html")
 
 # you can use directly run the flask server be running the app.py file
 if __name__=="__main__":
