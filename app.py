@@ -1,4 +1,5 @@
 # importing Flask 
+
 from flask import Flask, render_template
 
 # this is name for your app (it can be anything)
@@ -22,7 +23,7 @@ def about():
 def contact():
     return render_template("contact.html")
 
-# you can use directly run the flask server be running the app.py file
+# you can directly run the flask server be running the app.py file
 if __name__=="__main__":
     # debug should be True if website is under development
     # and False in other cases
