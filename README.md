@@ -6,25 +6,17 @@
 
 
 # Structuring flask application for multiple apps
-
-![flask(part-2).png](Structuring%20flask%20application%20for%20multiple%20apps%20(p%20b9009eb2fe814c1eb31956be9d400a1c/flask(part-2).png)
-
 Flask, being a lightweight Python backend development framework, can be structured into really good and optimized applications that can even compete with Django (the high-level framework). Flask gives us the freedom to resize our projects and applications depending on our needs. Unlike Django, which is already scaled to produce huge apps right away, Flask should be properly structured to do the same.
 
 ( Blueprint meaning - blueprints in flask mean collection of application inside an complex application. For blueprints to work in flask we must add each collection to the main application. Each blueprints can contains it’s own files such as static, templates, and views. )
 
 However, for the time being, we will not separate the static and template files.
 
-<aside>
-💡 **[Create your first Flask application (Part-1)](https://medium.com/@Satyam_Mishra/create-your-first-flask-application-48a698b524ca)**
-
-</aside>
-
 As we completed the first part of this blog, in which we created three redirecting pages named "home," "about and "contact," Now we are going to structure those using blueprints.
 
 For that, we will start by creating a new folder named "apps" in the main directory, something like below.
 
-![Untitled](Structuring%20flask%20application%20for%20multiple%20apps%20(p%20b9009eb2fe814c1eb31956be9d400a1c/Untitled.png)
+https://miro.medium.com/max/532/1*zM-VbW_rggX5u3qyQU3tQQ.webp
 
 And then create **init.py and** **main.py** inside the apps folder.
 
@@ -183,13 +175,12 @@ I have used several files from my last blog.
 
 Now your file structure should look something like this:
 
-![Untitled](Structuring%20flask%20application%20for%20multiple%20apps%20(p%20b9009eb2fe814c1eb31956be9d400a1c/Untitled%201.png)
+https://miro.medium.com/max/498/1*jKnVEpsxjnN_D8AcFyiKGA.webp
 
 Let’s try running our application now.
 
-![Untitled](Structuring%20flask%20application%20for%20multiple%20apps%20(p%20b9009eb2fe814c1eb31956be9d400a1c/Untitled%202.png)
-
-![Untitled](Structuring%20flask%20application%20for%20multiple%20apps%20(p%20b9009eb2fe814c1eb31956be9d400a1c/Untitled%203.png)
+https://miro.medium.com/max/640/1*JbMqzl4czdaCZjxRjfmPkw.webp
+https://miro.medium.com/max/640/1*FoTEYWvbl5rPLxiQErbsHg.webp
 
 and our application still works the same, but is more developmentally clean and easy to recap.
 
