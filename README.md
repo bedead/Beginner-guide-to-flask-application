@@ -16,7 +16,7 @@ As we completed the first part of this blog, in which we created three redirecti
 
 For that, we will start by creating a new folder named "apps" in the main directory, something like below.
 
-https://miro.medium.com/max/532/1*zM-VbW_rggX5u3qyQU3tQQ.webp
+![](https://miro.medium.com/max/532/1*zM-VbW_rggX5u3qyQU3tQQ.webp)
 
 And then create **init.py and** **main.py** inside the apps folder.
 
@@ -174,13 +174,12 @@ def contact():
 I have used several files from my last blog.
 
 Now your file structure should look something like this:
+![](https://miro.medium.com/max/498/1*jKnVEpsxjnN_D8AcFyiKGA.webp)
 
-https://miro.medium.com/max/498/1*jKnVEpsxjnN_D8AcFyiKGA.webp
 
 Let’s try running our application now.
-
-https://miro.medium.com/max/640/1*JbMqzl4czdaCZjxRjfmPkw.webp
-https://miro.medium.com/max/640/1*FoTEYWvbl5rPLxiQErbsHg.webp
+![](https://miro.medium.com/max/640/1*JbMqzl4czdaCZjxRjfmPkw.webp)
+![](https://miro.medium.com/max/640/1*FoTEYWvbl5rPLxiQErbsHg.webp)
 
 and our application still works the same, but is more developmentally clean and easy to recap.
 
