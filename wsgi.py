@@ -1,3 +1,5 @@
+# @author Satyam Mishra
+
 from apps import init
 
 if __name__ == "__main__":
